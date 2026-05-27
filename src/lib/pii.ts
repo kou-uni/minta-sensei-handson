@@ -59,7 +59,7 @@ export async function analyzeWithLLM(
   answer: string
 ): Promise<AnalysisResult> {
   const response = await client.models.generateContent({
-    model: "gemini-2.0-flash",
+    model: "gemini-2.5-flash",
     contents: `question: ${question}\n\nanswer: ${answer}`,
     config: {
       systemInstruction: ANALYZER_INSTRUCTION,

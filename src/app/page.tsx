@@ -89,7 +89,7 @@ export default function Home() {
           </div>
           <h1 className="text-3xl font-bold mb-3">教えて、minta先生</h1>
           <p className="text-zinc-600 leading-relaxed">
-            AI（OpenAI API）と DB（Supabase）を組み合わせた、最小サンプルアプリ。
+            AI（Gemini API）と DB（Supabase）を組み合わせた、最小サンプルアプリ。
             <br />
             質問を投げると minta先生が答えます。
             個人情報を除いた分析メタだけがDBに蓄積されます。
@@ -210,7 +210,7 @@ export default function Home() {
         </section>
 
         <footer className="mt-16 text-center text-xs text-zinc-400">
-          Powered by Next.js · OpenAI · Supabase · Vercel
+          Powered by Next.js · Gemini · Supabase · Vercel
         </footer>
       </main>
     </div>

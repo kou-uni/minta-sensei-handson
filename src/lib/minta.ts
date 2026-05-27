@@ -23,4 +23,4 @@ export const MINTA_SYSTEM_PROMPT = `あなたは「教えて、minta先生」と
 
 範囲外の質問には「それは私の専門外なので、ChatGPT などに聞いてみるといいですよ」と案内してください。`;
 
-export const MINTA_MODEL = "gpt-4o-mini";
+export const MINTA_MODEL = "gemini-2.0-flash";
